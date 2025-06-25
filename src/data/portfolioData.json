@@ -1,0 +1,111 @@
+{
+  "personalInfo": {
+    "name": "Steven",
+    "title": "Frontend Developer",
+    "greeting": "Hi, I'm",
+    "description": "Frontend Developer with 3 years of experience crafting beautiful, responsive web applications. Passionate about creating user-friendly interfaces and solving complex problems with simple solutions.",
+    "cvUrl": "#",
+    "contactUrl": "#contact",
+    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+    "profileImageAlt": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "category": "Web App",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14c8c76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "Full-featured e-commerce platform with cart, payment gateway, and user dashboard.",
+      "detailsUrl": "project-detail.html?project=1",
+      "tags": ["React", "Node.js"]
+    },
+    {
+      "id": 2,
+      "title": "Mobile Banking App",
+      "category": "Mobile",
+      "image": "https://images.unsplash.com/photo-1519219788971-8d979ee4ab54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1083&q=80",
+      "description": "Secure mobile banking application with fingerprint authentication and transaction management.",
+      "detailsUrl": "project-detail.html?project=2",
+      "tags": ["React Native", "Firebase"]
+    },
+    {
+      "id": 3,
+      "title": "Smart Home Dashboard",
+      "category": "IoT",
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "Centralized dashboard for controlling smart home devices with real-time monitoring.",
+      "detailsUrl": "project-detail.html?project=3",
+      "tags": ["Vue.js", "AWS"]
+    }
+  ],
+  "skills": [
+    { "name": "HTML5", "icon": "fa-brands fa-html5 text-orange-500" },
+    { "name": "CSS3", "icon": "fa-brands fa-css3-alt text-blue-500" },
+    { "name": "JavaScript", "icon": "fa-brands fa-js text-yellow-400" },
+    { "name": "React", "icon": "fa-brands fa-react text-blue-400" },
+    { "name": "Vue.js", "icon": "fa-brands fa-vuejs text-green-500" },
+    { "name": "Node.js", "icon": "fa-brands fa-node-js text-green-600" },
+    { "name": "Git", "icon": "fa-brands fa-git-alt text-orange-600" },
+    { "name": "Figma", "icon": "fa-brands fa-figma text-purple-500" },
+    { "name": "Tailwind CSS", "icon": "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" },
+    { "name": "Python", "icon": "fa-brands fa-python text-blue-600" }
+  ],
+  "education": {
+    "degree": "Bachelor of Computer Science",
+    "university": "University Name",
+    "period": "2021-Present",
+    "description": "Currently pursuing degree in Computer Science with focus on software development. Active in student organizations and maintaining a GPA of 3.5."
+  },
+  "experiences": [
+    {
+      "title": "Senior Frontend Developer",
+      "company": "Tech Solutions Inc.",
+      "period": "2021-Present",
+      "category": "Internship",
+      "description": "Lead frontend development team, implemented micro-frontend architecture, improved performance by 40%."
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Digital Agency",
+      "period": "2019-2021",
+      "category": "Freelance",
+      "description": "Developed responsive web applications for clients, implemented design systems, mentored junior developers."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "UI/UX Design Professional",
+      "category": "Training",
+      "description": "Comprehensive certification covering user research, prototyping, and usability testing.",
+      "url": "#"
+    },
+    {
+      "title": "React Advanced Concepts",
+      "category": "Training",
+      "description": "Advanced training covering React hooks, performance optimization, and state management.",
+      "url": "#"
+    },
+    {
+      "title": "AWS Certified Developer",
+      "category": "Skill Validation",
+      "description": "Certification validating expertise in developing and maintaining AWS applications.",
+      "url": "#"
+    }
+  ],
+  "contact": {
+    "title": "Let's work together!",
+    "description": "I'm available for freelance projects, full-time positions, or collaboration. Feel free to reach out and let's discuss how I can help with your next project.",
+    "whatsapp": "https://wa.me/1234567890",
+    "email": "mailto:email@example.com"
+  },
+  "footer": {
+    "name": "Steven",
+    "tagline": "Crafting digital experiences with passion and precision",
+    "social": [
+      { "name": "Instagram", "url": "https://instagram.com/username", "icon": "fa-brands fa-instagram" },
+      { "name": "LinkedIn", "url": "https://linkedin.com/in/username", "icon": "fa-brands fa-linkedin-in" },
+      { "name": "GitHub", "url": "https://github.com", "icon": "fa-brands fa-github" }
+    ],
+    "copyright": "© 2025 Steven Portfolio. All rights reserved."
+  }
+}

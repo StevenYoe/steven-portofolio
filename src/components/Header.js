@@ -7,7 +7,7 @@ const Header = () => {
         <nav className="flex justify-between items-center py-4">
           <div>
             <a href="#" className="text-2xl font-bold text-primary-500">
-              Rey<span className="text-slate-700 dark:text-slate-200">Portfolio</span>
+              Steven<span className="text-slate-700 dark:text-slate-200">Portfolio</span>
             </a>
           </div>
           <div className="hidden md:flex md:space-x-4 lg:space-x-8">

@@ -51,10 +51,10 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <nav className="flex justify-between items-center py-4">
           <div>
-            <a href="#home" className="text-2xl font-bold text-primary-500">Steven<span className="text-slate-700 dark:text-slate-200">Portfolio</span></a>
+            <a href="/" className="text-2xl font-bold text-primary-500">Steven<span className="text-slate-700 dark:text-slate-200">Portfolio</span></a>
           </div>
           <div className="hidden md:flex md:space-x-4 lg:space-x-8">
-            <a href="#home" onClick={() => handleNavClick('home')} className={`nav-link hover:text-primary-500 ${activeNav === 'home' ? 'active-nav' : ''}`}>Home</a>
+            <a href="/" onClick={() => handleNavClick('home')} className={`nav-link hover:text-primary-500 ${activeNav === 'home' ? 'active-nav' : ''}`}>Home</a>
             <a href="#projects" onClick={() => handleNavClick('projects')} className={`nav-link hover:text-primary-500 ${activeNav === 'projects' ? 'active-nav' : ''}`}>Projects</a>
             <a href="#skills" onClick={() => handleNavClick('skills')} className={`nav-link hover:text-primary-500 ${activeNav === 'skills' ? 'active-nav' : ''}`}>Skills</a>
             <a href="#education" onClick={() => handleNavClick('education')} className={`nav-link hover:text-primary-500 ${activeNav === 'education' ? 'active-nav' : ''}`}>Education</a>
@@ -79,7 +79,7 @@ const Header = () => {
         </nav>
         <div id="mobile-menu" className={`mobile-menu md:hidden ${isMenuOpen ? 'open' : ''}`}>
           <div className="flex flex-col py-4 space-y-4">
-            <a href="#home" onClick={() => handleNavClick('home')} className={`nav-link hover:text-primary-500 ${activeNav === 'home' ? 'active-nav' : ''}`}>Home</a>
+            <a href="/" onClick={() => handleNavClick('home')} className={`nav-link hover:text-primary-500 ${activeNav === 'home' ? 'active-nav' : ''}`}>Home</a>
             <a href="#projects" onClick={() => handleNavClick('projects')} className={`nav-link hover:text-primary-500 ${activeNav === 'projects' ? 'active-nav' : ''}`}>Projects</a>
             <a href="#skills" onClick={() => handleNavClick('skills')} className={`nav-link hover:text-primary-500 ${activeNav === 'skills' ? 'active-nav' : ''}`}>Skills</a>
             <a href="#education" onClick={() => handleNavClick('education')} className={`nav-link hover:text-primary-500 ${activeNav === 'education' ? 'active-nav' : ''}`}>Education</a>

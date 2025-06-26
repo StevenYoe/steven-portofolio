@@ -11,11 +11,11 @@ const Skills = ({ data }) => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
           {data.map(skill => (
             <div key={skill.name} className="skill-card bg-white dark:bg-slate-800 p-6 rounded-xl shadow-md dark:shadow-lg dark:shadow-slate-800/50 flex flex-col items-center justify-center transition-all duration-300">
-              <div className="w-16 h-16 bg-slate-100 dark:bg-slate-700 rounded-full flex items-center justify-center mb-3">
+              <div className="w-16 h-16 flex items-center justify-center mb-3">
                 {skill.icon.startsWith('fa-') ? (
-                  <i className={skill.icon}></i>
+                  <i className={`${skill.icon} text-4xl`}></i>
                 ) : (
-                  <img src={skill.icon} alt={skill.name} className="w-8 h-8" />
+                  <img src={skill.icon} alt={skill.name} className="w-10 h-10" />
                 )}
               </div>
               <h3 className="font-semibold">{skill.name}</h3>

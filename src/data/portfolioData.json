@@ -36,6 +36,15 @@
       "description": "Centralized dashboard for controlling smart home devices with real-time monitoring.",
       "detailsUrl": "project-detail.html?project=3",
       "tags": ["Vue.js", "AWS"]
+    },
+    {
+      "id": 4,
+      "title": "Smart Home Dashboard",
+      "category": "IoT",
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "Centralized dashboard for controlling smart home devices with real-time monitoring.",
+      "detailsUrl": "project-detail.html?project=3",
+      "tags": ["Vue.js", "AWS"]
     }
   ],
   "skills": [
@@ -70,6 +79,13 @@
       "period": "2019-2021",
       "category": "Freelance",
       "description": "Developed responsive web applications for clients, implemented design systems, mentored junior developers."
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Digital Agency",
+      "period": "2019-2021",
+      "category": "Freelance",
+      "description": "Developed responsive web applications for clients, implemented design systems, mentored junior developers."
     }
   ],
   "certifications": [
@@ -83,6 +99,12 @@
       "title": "React Advanced Concepts",
       "category": "Training",
       "description": "Advanced training covering React hooks, performance optimization, and state management.",
+      "url": "#"
+    },
+    {
+      "title": "AWS Certified Developer",
+      "category": "Skill Validation",
+      "description": "Certification validating expertise in developing and maintaining AWS applications.",
       "url": "#"
     },
     {

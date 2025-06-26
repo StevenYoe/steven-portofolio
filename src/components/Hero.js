@@ -11,7 +11,7 @@ const Hero = ({ data }) => {
               {data.description}
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href={data.cvUrl} className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-3 px-6 rounded-lg transition-all transform hover:scale-105">
+              <a href="CV Steven 2025.pdf" download="CV Steven 2025.pdf" target="_blank" rel="noopener noreferrer" className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-3 px-6 rounded-lg transition-all transform hover:scale-105">
                 <i className="fa-solid fa-download mr-2 text-white"></i> Download CV
               </a>
               <a href={data.contactUrl} className="border-2 border-primary-500 text-primary-500 hover:bg-primary-100/20 dark:hover:bg-primary-800/20 font-medium py-3 px-6 rounded-lg transition-all transform hover:scale-105">
